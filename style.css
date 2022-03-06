@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: vardana;
+    color: white;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(47, 50, 80);
+}
+
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 255, 255, .2);
+}
+
+
+.main-header {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+
+.main-footer {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
